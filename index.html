@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
     <title>Final Project</title>
   </head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html"><img src="img/logo-r.png" alt="logo"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT US</a></li>
@@ -20,18 +22,60 @@
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
     <div class="text-box">
       <h1>Welcome to <br> Peculiar Pig Farm</h1>
       <p>A New Standard In Farming. Sustainable Practices. Heritage Methods.</p>
-      <a href="">Visit Our Farm</a>
+      <a href="" class="hero-btn">Visit Our Farm</a>
     </div>
 
     </section>
   
+    <!------ Offer ------>
+
+    <section class="offer">
+      <h1>Everything We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, soluta eaque. Nemo voluptatem, rem ea dicta voluptate, delectus veritatis qui voluptas totam animi sunt possimus, ex veniam sequi eos quasi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, praesentium. Explicabo natus reiciendis tenetur animi iure nostrum, earum error consectetur, neque possimus quasi sapiente saepe dolorum dignissimos rerum hic quaerat.</p>
+
+      <div class="row">
+        <div class="offer-column"></div>
+          <h3>Free Range</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, soluta eaque. Nemo voluptatem, rem ea dicta voluptate, delectus veritatis qui voluptas totam animi sunt possimus, ex veniam sequi eos quasi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="offer-column"></div>
+          <h3>Hormone Free</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, soluta eaque. Nemo voluptatem, rem ea dicta voluptate, delectus veritatis qui voluptas totam animi sunt possimus, ex veniam sequi eos quasi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="offer-column"></div>
+          <h3>Pasture Fed</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, soluta eaque. Nemo voluptatem, rem ea dicta voluptate, delectus veritatis qui voluptas totam animi sunt possimus, ex veniam sequi eos quasi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
 
 
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ------JavaScrpit fpr Toggle Menu------>
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+
+    </script>
     
   </body>
 </html>
