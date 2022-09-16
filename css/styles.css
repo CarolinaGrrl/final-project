@@ -84,7 +84,6 @@ nav img{
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fdfbf3;
-
 }
 
 .hero-btn{
@@ -170,14 +169,9 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
+    width: 100%;
 }
 
-/* .row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-} */
 .offer-col{
     flex-basis: 31%;
     background: #fff3f3;
@@ -189,15 +183,19 @@ p{
     /* height: 157px;
     width: 356px; */
 }
+
 h3{
     font-family: "Questrial", sans-serif;
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
+
 .offer-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 20px 0px rgba(243, 223, 4, 0.73); */
 }
+
 @media(max-width: 700px){
     .row{
         flex-direction: column;
@@ -225,6 +223,13 @@ h3{
     width: 100%;
     display: block;
 }
+
+.farm-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+} 
+
 .layer{
     background: transparent;
     height: 100%;
@@ -262,6 +267,58 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+
+.products-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.products-col img{
+    width: 100%;
+    border-radius: 10px;  
+}
+
+.products-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.products-col p{
+    padding: 0;
+}
+
+.products-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* ------ Press ------ */
+
+.press{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
