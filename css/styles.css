@@ -172,8 +172,6 @@ p{
     padding: 10px;
 }
 
-
-
 .offer-row{
     margin-top: 5%;
     display: flex;
@@ -199,7 +197,7 @@ h3{
 }
 
 .offer-col:hover{
-    box-shadow: 0 0 20px 0px rgba(119, 9, 9,0.9);
+    box-shadow: 0 0 20px 0px rgba(152, 13, 13, 0.1);
 }
 
 @media(max-width: 700px){
@@ -223,8 +221,8 @@ h3{
     position: relative;
     overflow: hidden;
     color: #fdd605
-
 }
+
 .farm-col img{
     width: 100%;
     display: block;
@@ -363,7 +361,7 @@ p-press{
 .suan{
     margin: 100px auto;
     width: 80%;
-    background-image: -moz-linear-gradient(rga(0,0,0,0.7), rga(0,0,0,0.7)),url(/img/farmlandBanner.png)
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/img/farmlandBanner.png");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
